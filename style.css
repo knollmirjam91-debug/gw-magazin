@@ -1,0 +1,120 @@
+:root {
+  --color-button: #4285f4;
+  --color-button-hover: #3367d6;
+}
+
+* {
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+a-scene {
+  height: 100vh;
+  height: 100dvh;
+  width: 100vw;
+}
+
+.button-wrapper {
+  position: absolute;
+  bottom: 1rem;
+  z-index: 9;
+  left: 0;
+  display: flex;
+  width: 100%;
+  flex-flow: column-reverse nowrap;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+button, #link-button {
+  padding-inline: 1rem;
+  height: 42px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-button);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+button:hover, #link-button:hover {
+  background-color: var(--color-button-hover);
+}
+
+.visible {
+  display: flex;
+  animation: fade-in 500ms ease;
+}
+
+.invisible {
+  display: none;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#prev {
+  border-radius: 100rem 0 0 100rem;
+  border-right: 0.25rem solid white;
+}
+#next {
+  border-radius: 0 100rem 100rem 0;
+  border-left: 0.25rem solid white;
+}
+
+#video-controls {
+  gap: 0.5rem;
+}
+
+.splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.splash-content {
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 80%;
+}
+
+.splash-button {
+  margin-top: 1.5rem;
+  margin-inline: auto;
+  font-weight: 600;
+}
+
+.splash-button:hover {
+  background-color: #3367d6;
+}
