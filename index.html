@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GW Projekt</title>
+    <link href="./style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/pako@2.1.0/dist/pako.min.js"></script>
+    <script src="./realmar.js" type="module"></script>
+  </head>
+  <body>
+    <a-scene
+      mindar-image="imageTargetSrc: ./targets.mind; filterMinCF: 0.0001; filterBeta: 0.01;"
+      vr-mode-ui="enabled: false;"
+      device-orientation-permission-ui="enabled: false;"
+    >
+      <a-assets>
+        <video
+          id="asset_rJRd9"
+          src="./files/Amv-S___Ar Video 1 Jinx(1).mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_8-LgN"
+          src="./files/Fn0py___Ar Video 2 Krul Tepes.mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_51b-a"
+          src="./files/7hUrx___Ar Video 3 Mitsuri(1)(1).mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_yBFzH"
+          src="./files/Mvwwf___Ar Video 4 Ahri (Foxfire Skin).mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_iAG9D"
+          src="./files/C_C0s___Ar Video 5 Mirai Nikk(1)(1).mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_kOQGm"
+          src="./files/XOXPJ___Ar Video 6 Caitlyn.mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_qAdZz"
+          src="./files/g_asc___Ar Video 7 Misa.mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_9Gb5T"
+          src="./files/Lh4W5___Ar Video 8 League Of Legends - Sett (Spirit Blossom Skin).mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_jjaA5"
+          src="./files/Vx437___Ar Video 9-.mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_IEuOS"
+          src="./files/8evvl___Ar Video 10 Rezero - Rem Und Ram.mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_NRSlT"
+          src="./files/HquUm___Ar Video 11 Danganronpa - Junko Enoshima.mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_dI3Fd"
+          src="./files/gWmsi___Ar Video 12 Black Butler - Ciel Phantomhive.mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset__fKKA"
+          src="./files/T7YS4___Ar Video 13 Genshin Impact - Raiden Shogun.mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+        <video
+          id="asset_iZUGg"
+          src="./files/1vKXH___Ar Video 14 Gate - Rory Mercury.mp4"
+          loop=""
+          data-autoplay="true"
+          data-muted="false"
+          playsinline=""
+          crossorigin="anonymous"
+        ></video>
+      </a-assets>
+      <a-camera
+        position="0 0 0"
+        look-controls="enabled: false;"
+        cursor="fuse: false; rayOrigin: mouse;"
+        raycaster="far: 10000; objects: .clickable;"
+        id="camera"
+      ></a-camera>
+      <a-entity
+        mindar-image-target="targetIndex: 0;"
+        data-item-name="Jinx"
+        id="item_C704w"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_-OY_2"
+            data-entity-id="-OY_2"
+            src="#asset_rJRd9"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 1;"
+        data-item-name="Krul Tepes"
+        id="item_egOJ4"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_phPg0"
+            data-entity-id="phPg0"
+            src="#asset_8-LgN"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 2;"
+        data-item-name="Mitsuri"
+        id="item_SPZCI"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_PfFuv"
+            data-entity-id="PfFuv"
+            src="#asset_51b-a"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 3;"
+        data-item-name="Ahri (Foxfire Skin)"
+        id="item_mB6pq"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_oOxzp"
+            data-entity-id="oOxzp"
+            src="#asset_yBFzH"
+            width="1"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 4;"
+        data-item-name="Mirai Nikk"
+        id="item_9odo3"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_Oq8rZ"
+            data-entity-id="Oq8rZ"
+            src="#asset_iAG9D"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 5;"
+        data-item-name="Caitlyn"
+        id="item_uYtqR"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_h3w78"
+            data-entity-id="h3w78"
+            src="#asset_kOQGm"
+            width="1"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 6;"
+        data-item-name="Misa"
+        id="item_iicpY"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_dfH9B"
+            data-entity-id="dfH9B"
+            src="#asset_qAdZz"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 7;"
+        data-item-name="League of Legends - Sett (Spirit Blossom Skin)"
+        id="item_ppvfw"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_6ikVe"
+            data-entity-id="6ikVe"
+            src="#asset_9Gb5T"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 8;"
+        data-item-name="Monster High"
+        id="item_TtnJC"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_k7dX6"
+            data-entity-id="k7dX6"
+            src="#asset_jjaA5"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 9;"
+        data-item-name="Re:Zero - Rem und Ram"
+        id="item_bkpDP"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_Y94AB"
+            data-entity-id="Y94AB"
+            src="#asset_IEuOS"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 10;"
+        data-item-name="Danganronpa - Junko Enoshima"
+        id="item_p_yPX"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_K4nr9"
+            data-entity-id="K4nr9"
+            src="#asset_NRSlT"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 11;"
+        data-item-name="Black Butler - Ciel Phantomhive"
+        id="item_K4B1U"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_k8Gnj"
+            data-entity-id="k8Gnj"
+            src="#asset_dI3Fd"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 12;"
+        data-item-name="Genshin Impact - Raiden Shogun"
+        id="item_EfE_y"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_DhqxD"
+            data-entity-id="DhqxD"
+            src="#asset__fKKA"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+      <a-entity
+        mindar-image-target="targetIndex: 13;"
+        data-item-name="Gate - Rory Mercury"
+        id="item_aGYJk"
+      >
+        <a-entity position="0 0 0" quaternion="0 0 0 1" scale="0.5 0.5 0.5">
+          <a-plane
+            id="entity_xhP1N"
+            data-entity-id="xhP1N"
+            src="#asset_iZUGg"
+            width="1.7777777778"
+            height="1"
+            color="#ffffff"
+            alpha-test="0.5"
+          ></a-plane>
+        </a-entity>
+      </a-entity>
+    </a-scene>
+    <div id="splash-screen" class="splash-screen">
+      <div class="splash-content">
+        <h2>This experience contains audio</h2>
+        <p>Click the button below to enable sound</p>
+        <button id="start-button" class="splash-button">
+          Start Experience
+        </button>
+      </div>
+    </div>
+    <div class="button-wrapper">
+      <div class="button-container invisible" id="gallery-buttons">
+        <button id="prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-left"
+          >
+            <path d="m12 19-7-7 7-7"></path>
+            <path d="M19 12H5"></path>
+          </svg>
+        </button>
+        <button id="next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-arrow-right"
+          >
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="button-container invisible" id="video-buttons">
+        <button id="play">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-play"
+          >
+            <polygon points="6 3 20 12 6 21 6 3"></polygon>
+          </svg>
+        </button>
+        <button id="pause">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-pause"
+          >
+            <rect x="14" y="4" width="4" height="16" rx="1"></rect>
+            <rect x="6" y="4" width="4" height="16" rx="1"></rect>
+          </svg>
+        </button>
+        <button id="replay">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-rotate-ccw"
+          >
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <path d="M3 3v5h5"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="button-container invisible" id="link-buttons">
+        <a
+          id="link-button"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+        ></a>
+      </div>
+    </div>
+  </body>
+</html>
